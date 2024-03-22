@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "mruhul", // Usually your GitHub org/user name.
+  projectName: "bolt-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -58,9 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "Ruhul's Journey",
       logo: {
-        alt: "My Site Logo",
+        alt: "Ruhul's Journey",
         src: "img/logo.svg",
       },
       items: [
@@ -68,7 +68,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Bolt.Common.Extensions",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
