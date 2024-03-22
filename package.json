@@ -43,5 +43,9 @@
   },
   "engines": {
     "node": ">=18.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/mruhul/bolt-docs.git",
+  "author": "Mohammad Ruhul Amin <mruhul@gmail.com>",
+  "license": "MIT"
 }
