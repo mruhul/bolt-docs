@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbolt_docs=self.webpackChunkbolt_docs||[]).push([[3239],{5787:o=>{o.exports=JSON.parse('{"permalink":"/bolt-docs/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

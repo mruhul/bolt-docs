@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbolt_docs=self.webpackChunkbolt_docs||[]).push([[5900],{4473:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/bolt-docs/blog/tags/facebook","allTagsPath":"/bolt-docs/blog/tags","count":1,"unlisted":false}')}}]);

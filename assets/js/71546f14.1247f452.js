@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbolt_docs=self.webpackChunkbolt_docs||[]).push([[8391],{7224:o=>{o.exports=JSON.parse('{"permalink":"/bolt-docs/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
