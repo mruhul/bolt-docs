@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbolt_docs=self.webpackChunkbolt_docs||[]).push([[9491],{8878:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/botl-docs/blog/tags/docusaurus","allTagsPath":"/botl-docs/blog/tags","count":4,"unlisted":false}')}}]);

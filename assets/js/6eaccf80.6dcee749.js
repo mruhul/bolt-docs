@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbolt_docs=self.webpackChunkbolt_docs||[]).push([[1579],{879:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/botl-docs/blog/tags/hello","allTagsPath":"/botl-docs/blog/tags","count":2,"unlisted":false}')}}]);
