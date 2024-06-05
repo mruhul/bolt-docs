@@ -65,10 +65,19 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          type: "dropdown",
+          label: "Projects",
           position: "left",
-          label: "Bolt.Common.Extensions",
+          items: [
+            {
+              label: "Bolt.Common.Extensions",
+              to: "/docs/bolt-common-extensions/intro",
+            },
+            {
+              label: "Bolt.ServerDrivenUI",
+              to: "/docs/bolt-sdui/intro",
+            },
+          ],
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -77,6 +86,10 @@ const config: Config = {
           position: "right",
         },
       ],
+    },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
     },
     footer: {
       style: "dark",
@@ -126,6 +139,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ["csharp"],
     },
   } satisfies Preset.ThemeConfig,
 };
