@@ -16,9 +16,12 @@ nuget add Bolt.Common.Extensions
 
 ## Extension Methods
 
-### Boolean
+### Convert String to Boolean
 
 Convert string to nullable boolean. If a string is null or can't parse to boolean then return null
+
+<details>
+  <summary>string?.ToBoolean() : bool?</summary>
 
 ```csharp
 var got = "true".ToBoolean();
@@ -44,3 +47,21 @@ var got = nullStr.ToBoolean();
 got.ShouldBe(null);
 
 ```
+
+</details>
+
+### Convert nullable boolean to non nullable
+
+<details>
+  <summary>boolean?.NullSafe()</summary>
+
+```csharp
+
+boolean? maybeTrue = null;
+maybeTrue.NullSafe().ShouldBe(false);
+mayBeTrue = true;
+maybeTrue.NullSafe().ShouldBe(true);
+
+```
+
+</details>
